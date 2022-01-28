@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import react from "react";
+import { Scrollbars } from "react-custom-scrollbars";
+import styled from "styled-components";
+import Banner from "./Components/Banner";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Banner />
+      <div>qwdsuiqowdqwns</div>
+      <div>qwdsuiqowdqwns</div>
+      <div>qwdsuiqowdqwns</div>
+    </>
   );
 }
 
